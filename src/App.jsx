@@ -8,7 +8,6 @@ import { useState } from "react";
 import Menu from "./components/menu/Menu"
 
 function App() {
-  //setting menuopen to false from the intial opening of the site. We then pass this function into the topbar component
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">

@@ -1,5 +1,6 @@
 .app{
     height: 100vh;
+    
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
@@ -12,8 +13,7 @@
         &::-webkit-scrollbar{
             display: none;
         }
-
-        //For each elment inside the sections class
+        
         > *{
             width: 100vw;
             height: calc(100vh - 70px);
