@@ -5,6 +5,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
 import { useState } from "react";
+import Menu from "./components/menu/Menu"
 
 function App() {
   //setting menuopen to false from the intial opening of the site. We then pass this function into the topbar component
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="app">
      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
        <Intro />
        <About />
