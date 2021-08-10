@@ -9,8 +9,8 @@
         overflow: hidden;
 
         .imgContainer {
-            width: 900px;
-            height: 900px;
+            width: 800px;
+            height: 800px;
             margin-top: 50px;
             background-color: #3500D3;
             border-radius: 50%;
@@ -40,17 +40,35 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
-                color: white;
+                color:#fff;
             }
 
             h2 {
                 font-size: 35px;
-                color: white;
+                color: #fff;
             }
 
             h3 {
                 font-size: 30px;
-                color: #3500D3;
+                color: #fff;
+
+                span{
+                    font-size: inherit;
+                    color: #3500D3;
+                }
+
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
             }
         }
         
