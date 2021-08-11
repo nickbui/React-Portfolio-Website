@@ -1,6 +1,5 @@
 import "./topbar.scss"
 
-
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         //Prop: if open is true, set it to active 

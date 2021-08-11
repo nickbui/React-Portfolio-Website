@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     z-index: 3;
+    transition: all 1s ease;
 
     .wrapper{
         padding: 10px 30px;
@@ -28,8 +29,8 @@
             }
         }
 
-        .right{
-            .hamburger{
+        .right {
+            .hamburger {
                 width: 32px;
                 height: 25px;
                 display: flex;
@@ -54,7 +55,6 @@
 
         .hamburger{
             span{
-                // first line
                 &:first-child{
                     background-color: white;
                     transform: rotate(45deg);
