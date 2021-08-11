@@ -1,12 +1,16 @@
 import "./topbar.scss"
 
+
 export default function Topbar({ menuOpen, setMenuOpen }) {
+    
+
     return (
-        //Prop: if open is true, set it to active 
         <div className= {"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">NBui</a>
+                    <a href="#intro" className="logo">
+                        <img src= {!menuOpen ? "assets/logo.png" : "assets/logoActive.png"} alt="" />
+                    </a>
                 </div>
 
                 <div className="right">
